@@ -1,7 +1,5 @@
 from requests import Session, Response
 
-from session import LoggedSession
-
 
 class Restclient:
     def __init__(self, host, session: Session = None):
